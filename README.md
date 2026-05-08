@@ -1,2 +1,7 @@
 # go_todo_app
-TODO Web Application with AUTH by Go.
+
+## 概要
+
+認証付きのTODOタスクを管理するAPIサーバー
+
+※書籍「詳解Go言語Webアプリケーション開発」をもとに作成したもの。
