@@ -1,0 +1,10 @@
+services:
+  app:
+    image: gotodo
+    build:
+      args:
+        - target=dev
+    volumes:
+      - ${LOCAL_WORKSPACE_FOLDER}:/app
+    ports:
+      - "18080:8080"
